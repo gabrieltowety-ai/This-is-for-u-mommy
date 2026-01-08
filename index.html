@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Wangeci ❤️ My Forever</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      background: linear-gradient(135deg, #ff758c, #ff7eb3);
+      color: #fff;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      overflow-x: hidden;
+    }
+
+    header {
+      padding: 50px 20px;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-weight: normal;
+      opacity: 0.9;
+    }
+
+    .section {
+      background: rgba(0,0,0,0.25);
+      margin: 30px auto;
+      padding: 30px;
+      border-radius: 20px;
+      max-width: 720px;
+      box-shadow: 0 0 30px rgba(255,255,255,0.25);
+    }
+
+    .section p {
+      font-size: 1.1em;
+      line-height: 1.8;
+      margin: 14px 0;
+    }
+
+    .big-text {
+      font-size: 1.6em;
+      font-weight: bold;
+      margin-top: 25px;
+    }
+
+    .forever-btn {
+      margin-top: 25px;
+      padding: 14px 30px;
+      font-size: 1.2em;
+      border: none;
+      border-radius: 30px;
+      background: #fff;
+      color: #ff4f7a;
+      cursor: pointer;
+      box-shadow: 0 0 15px rgba(255,255,255,0.6);
+      transition: transform 0.2s ease;
+    }
+
+    .forever-btn:hover {
+      transform: scale(1.1);
+    }
+
+    .signature {
+      margin: 50px 0;
+      font-size: 1.3em;
+      font-style: italic;
+    }
+
+    .floating {
+      position: fixed;
+      bottom: -40px;
+      font-size: 26px;
+      animation: floatUp 9s linear infinite;
+    }
+
+    @keyframes floatUp {
+      from { transform: translateY(0); opacity: 1; }
+      to { transform: translateY(-120vh); opacity: 0; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- 🎶 Background Music -->
+<audio autoplay loop>
+  <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+</audio>
+
+<header>
+  <h1>💖 Wangeci 💖</h1>
+  <h2>My girlfriend. My peace. My forever.</h2>
+</header>
+
+<div class="section">
+  <p>
+    Wangeci, this page exists because of how deeply I feel about you.
+    I wanted something permanent — something that doesn’t disappear
+    when the conversation ends.
+  </p>
+
+  <p>
+    Loving you is not a moment for me.
+    It’s a mindset.
+    It’s choosing you every single day.
+  </p>
+</div>
+
+<div class="section">
+  <p>
+    You are the calm in my chaos.
+    The smile that fixes my bad days.
+    The person I think of when things go quiet.
+  </p>
+
+  <p>
+    You are not replaceable.
+    You are not temporary.
+    You are intentional.
+  </p>
+</div>
+
+<div class="section">
+  <p>
+    I want you to know this clearly, Wangeci —
+    I don’t take your heart lightly.
+  </p>
+
+  <p>
+    I want to protect it,
+    respect it,
+    and grow with you.
+  </p>
+</div>
+
+<div class="section">
+  <p class="big-text">
+    Wangeci ❤️
+  </p>
+
+  <p>
+    My girl.  
+    My heart.  
+    My peace.
+  </p>
+
+  <p>
+    Mommy…  
+    the one who grounds me,  
+    the one who makes me feel safe,  
+    the one I appreciate more than words can explain.
+  </p>
+</div>
+
+<div class="section">
+  <p class="big-text">
+    I never want to lose you.
+  </p>
+
+  <p>
+    Not to misunderstandings.  
+    Not to silence.  
+    Not to anything life throws at us.
+  </p>
+
+  <p>
+    If love is effort, I’ll put it in.  
+    If love is patience, I’ll learn it.  
+    If love is choosing one person — I choose you.
+  </p>
+
+  <button class="forever-btn" onclick="alert('Forever starts with us ❤️')">
+    Forever? 💍
+  </button>
+</div>
+
+<div class="signature">
+  — Always yours,<br>
+  Gabriel ❤️
+</div>
+
+<script>
+  setInterval(() => {
+    const heart = document.createElement("div");
+    heart.className = "floating";
+    heart.style.left = Math.random() * 100 + "vw";
+    heart.textContent = Math.random() > 0.5 ? "❤️" : "💖";
+    document.body.appendChild(heart);
+    setTimeout(() => heart.remove(), 9000);
+  }, 300);
+</script>
+
+</body>
+</html>
